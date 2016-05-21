@@ -739,15 +739,6 @@
     </setupTask>
     <setupTask
         xsi:type="setup.p2:P2Task"
-        label="mylyn doc nightly"
-        licenseConfirmationDisabled="true">
-      <requirement
-          name="org.eclipse.mylyn.wikitext.extras.feature.group"/>
-      <repository
-          url="http://download.eclipse.org/mylyn/snapshots/nightly/docs/"/>
-    </setupTask>
-    <setupTask
-        xsi:type="setup.p2:P2Task"
         label="sonarlint"
         licenseConfirmationDisabled="true">
       <requirement
